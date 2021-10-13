@@ -1,0 +1,13 @@
+﻿  Chat.cpp
+  Compra.cpp
+  Deuda.cpp
+  Egreso.cpp
+  Ingreso.cpp
+  Lista.cpp
+  Objetivo.cpp
+  Proximo_activo.cpp
+  Tarjeta.cpp
+  Usuario.cpp
+  Generando código...
+  Chat.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  MiEstadoFinancieroModel.vcxproj -> D:\PUCP\LPOO_proyecto_ciclo\MiEstadoFinanciero\Debug\MiEstadoFinancieroModel.dll

@@ -1,0 +1,4 @@
+﻿  UsuarioController.cpp
+D:\PUCP\LPOO_proyecto_ciclo\MiEstadoFinanciero\MiEstadoFinancieroController\UsuarioController.cpp(21,12): error C2374: 'objUsuario': nueva definición; inicialización múltiple
+D:\PUCP\LPOO_proyecto_ciclo\MiEstadoFinanciero\MiEstadoFinancieroController\UsuarioController.cpp(18): message : vea la declaración de 'objUsuario'
+D:\PUCP\LPOO_proyecto_ciclo\MiEstadoFinanciero\MiEstadoFinancieroController\UsuarioController.cpp(23,8): error C2061: error de sintaxis: identificador 'WriteAllLines'

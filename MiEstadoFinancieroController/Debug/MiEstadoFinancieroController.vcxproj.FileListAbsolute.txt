@@ -1,0 +1,2 @@
+D:\PUCP\LPOO_proyecto_ciclo\MiEstadoFinanciero\MiEstadoFinancieroController\Debug\MiEstadoFinancieroController.vcxproj.AssemblyReference.cache
+D:\PUCP\LPOO_proyecto_ciclo\MiEstadoFinanciero\MiEstadoFinancieroController\Debug\MiEstadoFinancieroController.vcxproj.CopyComplete

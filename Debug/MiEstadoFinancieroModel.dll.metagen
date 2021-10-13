@@ -1,0 +1,96 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly MiEstadoFinancieroModel, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class MiEstadoFinancieroModel.Usuario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID : Public
+    System.String Nombre_usuario : Public
+    System.String Contraseña : Public
+    System.String Nombre : Public
+    System.String Apellido_paterno : Public
+    System.String Apellido_materno : Public
+    System.String Correo : Public
+Class MiEstadoFinancieroModel.Chat: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Codigo_chat : Public
+    System.String Mensaje : Public
+    MiEstadoFinancieroModel.Usuario objUsuario : Public
+Class MiEstadoFinancieroModel.Lista: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID : Public
+    System.String Nombre : Public
+    Int32 Monto : Public
+    MiEstadoFinancieroModel.Usuario objUsuario : Public
+Class MiEstadoFinancieroModel.Compra: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID : Public
+    Int32 Monto : Public
+    System.String Nombre : Public
+    Int32 Cantidad : Public
+    MiEstadoFinancieroModel.Lista objLista : Public
+Class MiEstadoFinancieroModel.Deuda: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID : Public
+    System.String Descripcion : Public
+    Int32 Monto : Public
+    System.String Estado : Public
+    System.String Fecha_deuda : Public
+    MiEstadoFinancieroModel.Usuario objUsuario : Public
+Class MiEstadoFinancieroModel.Egreso: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID : Public
+    System.String Categoria : Public
+    Int32 Monto : Public
+    System.String Fecha : Public
+    MiEstadoFinancieroModel.Usuario objUsuario : Public
+Class MiEstadoFinancieroModel.Ingreso: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID : Public
+    System.String Categoria : Public
+    Int32 Monto : Public
+    System.String Fecha : Public
+    MiEstadoFinancieroModel.Usuario objUsuario : Public
+Class MiEstadoFinancieroModel.Objetivo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID : Public
+    System.String Descripcion : Public
+    Int32 Monto : Public
+    System.String Estado : Public
+    System.String Fecha_logro : Public
+    MiEstadoFinancieroModel.Usuario objUsuario : Public
+Class MiEstadoFinancieroModel.Proximo_activo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID : Public
+    System.String Descripcion : Public
+    Int32 Monto : Public
+    System.String Estado : Public
+    System.String Fecha_proxima : Public
+    MiEstadoFinancieroModel.Usuario objUsuario : Public
+Class MiEstadoFinancieroModel.Tarjeta: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID : Public
+    System.String Entidad_bancaria : Public
+    Int32 Monto : Public
+    MiEstadoFinancieroModel.Usuario objUsuario : Public
+Class MiEstadoFinancieroModel.Tip: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID : Public
+    System.String Texto : Public
+    System.String Ocasion : Public

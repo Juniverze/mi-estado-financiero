@@ -1,0 +1,4 @@
+D:\PUCP\LPOO_proyecto_ciclo\MiEstadoFinanciero\MiEstadoFinancieroView\Debug\MiEstadoFinancieroView.vcxproj.AssemblyReference.cache
+D:\PUCP\LPOO_proyecto_ciclo\MiEstadoFinanciero\MiEstadoFinancieroView\Debug\MiEstadoFinancieroView.frmRegistroUsuario.resources
+D:\PUCP\LPOO_proyecto_ciclo\MiEstadoFinanciero\MiEstadoFinancieroView\Debug\MiEstadoFinancieroView.vcxproj.GenerateResource.cache
+D:\PUCP\LPOO_proyecto_ciclo\MiEstadoFinanciero\MiEstadoFinancieroView\Debug\MiEstadoFinancieroView.vcxproj.CopyComplete
